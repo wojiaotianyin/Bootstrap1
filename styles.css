@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+
+body {
+    background: rgb(16, 73, 70);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: #848d96;
+}
+
+a {
+    color: rgba(71, 190, 199, 0.75);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dcdcdc;
+}
+
+li {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.aw-image {
+    height: 80vh;
+    background-image: url("../img/brooke-cagle-241293_cropped.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.aw-content-wrapper {
+    overflow: auto;
+}
+
+.aw-content {
+    padding: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.aw-name {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1rem;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.4px;
+    color: #47bec7;
+}
+
+.aw-tagline {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0;
+    color: #cfcfcf;
+}
+
+.aw-bio {
+    padding: 1.875rem 0rem;
+    font-size: 1.313rem;
+    line-height: 2rem;
+}
+
+.aw-list-headings {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0.75rem;
+    margin-bottom: 1.25rem;
+    color: #cfcfcf;
+    letter-spacing: 0.125rem;
+    opacity: 0.75;
+}
+
+.aw-list {
+    margin-bottom: 1.25rem;
+}
+
+.aw-credit {
+    font-size: 0.75rem;
+    opacity: 0.4;
+    line-height: 0.875rem;
+}
+
+@media (min-width: 575px) {
+    .aw-content {
+        padding: 3.75rem;
+    }
+
+    .aw-list {
+        margin-bottom: 2.5rem;
+    }
+
+    .aw-tagline {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .aw-content {
+        padding: 3.75rem 6.25rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .aw-main-wrapper {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .aw-image {
+        height: 100vh;
+    }
+
+    .aw-content {
+        padding: 3.75rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .aw-content {
+        padding: 3.75rem 2.5rem;
+        max-width: 600px;
+    }
+
+    .aw-tagline {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .aw-content {
+        padding: 3.75rem 0rem;
+    }
+}
